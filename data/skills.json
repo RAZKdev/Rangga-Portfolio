@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Technical Areas & Competencies",
+    "description": "Pengelompokan bidang teknis kurikulum TJKT dan rekayasa perangkat lunak",
+    "updatedAt": "2026-10-26",
+    "claimLevel": "curriculum_and_practical_projects"
+  },
+  "domains": [
+    {
+      "id": "routing-switching",
+      "name": "Routing & Switching",
+      "icon": "network",
+      "description": "Perutean paket, switching, dan segmentasi jaringan lokal & lab.",
+      "status": "curriculum_focus",
+      "items": [
+        "MikroTik RouterOS",
+        "Cisco Packet Tracer",
+        "VLAN & Trunking",
+        "OSPF & Static Routing",
+        "Subnetting & CIDR"
+      ]
+    },
+    {
+      "id": "server-virtualization",
+      "name": "Server & Virtualization",
+      "icon": "server",
+      "description": "Administrasi sistem operasi server dan lingkungan virtualisasi.",
+      "status": "curriculum_focus",
+      "items": [
+        "Linux Debian",
+        "Proxmox VE",
+        "Nginx Web Server",
+        "SSH & Shell Scripting",
+        "Local DNS & DHCP Server"
+      ]
+    },
+    {
+      "id": "physical-infra",
+      "name": "Fiber Optic & Cabling",
+      "icon": "cable",
+      "description": "Penyambungan kabel fisik, terminasi, dan pengukuran daya optik.",
+      "status": "curriculum_focus",
+      "items": [
+        "Fusion Splicing",
+        "Optical Power Meter (OPM)",
+        "Visual Fault Locator (VFL)",
+        "UTP Cat6 Crimping (T568A/B)",
+        "Patch Panel & Rack Mounting"
+      ]
+    },
+    {
+      "id": "software-development",
+      "name": "Software & Web Engineering",
+      "icon": "code",
+      "description": "Pembangunan antarmuka web, utilitas mandiri, dan logika analitis.",
+      "status": "practical_projects",
+      "items": [
+        "HTML5 Semantic & CSS3",
+        "JavaScript (ES6+)",
+        "React & Vite",
+        "Tailwind CSS",
+        "Git & GitHub Workflows"
+      ]
+    }
+  ]
+}

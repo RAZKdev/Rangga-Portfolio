@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Rangga Portfolio Projects",
+    "description": "Koleksi proyek teknis publik terverifikasi",
+    "updatedAt": "2026-10-29",
+    "totalActive": 2
+  },
+  "projects": [
+    {
+      "id": "alltools-tjkt",
+      "title": "AllTools TJKT",
+      "tagline": "Media Pembelajaran & Toolkit Utilitas Jaringan Komputer",
+      "category": "Networking & Utilitas",
+      "badge": "Unggulan #1",
+      "status": "Aktif / Selesai",
+      "summary": "Platform utilitas jaringan komprehensif berbasis web untuk siswa dan teknisi TJKT. Dirancang untuk mempercepat perhitungan subnetting, kalkulasi IP addressing, konversi data, dan pengujian kompetensi jaringan secara akurat tanpa dependensi backend.",
+      "problem": "Siswa dan teknisi pemula sering kesulitan memahami kalkulasi subnetting biner, konversi heksadesimal, serta konfigurasi pengkabelan di laboratorium tanpa alat bantu visual yang cepat.",
+      "solution": "Membangun workstation kalkulator all-in-one client-side yang ringan, responsif, dan dapat berjalan 100% offline di ponsel maupun laptop.",
+      "stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "SPA Architecture"
+      ],
+      "highlights": [
+        "Analisis IP Addressing & Subnet Mask presisi (CIDR / Dotted Decimal)",
+        "100% Client-Side & ramah penggunaan offline",
+        "57/57 Automated unit tests lulus tanpa error"
+      ],
+      "links": {
+        "demo": "https://razkdev.github.io/AllTools-TJKT/",
+        "github": "https://github.com/RAZKdev/AllTools-TJKT"
+      }
+    },
+    {
+      "id": "finance-dashboard",
+      "title": "Finance Dashboard",
+      "tagline": "Personal Financial & Investment Workstation",
+      "category": "Software & Web Development",
+      "badge": "Unggulan #2",
+      "status": "Aktif / Pengembangan",
+      "summary": "Workstation analitik keuangan dan portofolio pribadi modern. Menggabungkan pencatatan multi-rekening kas/bank, alokasi aset investasi, anggaran bulanan, serta visualisasi arus kas dengan prinsip kedaulatan data lokal (local-first).",
+      "problem": "Banyak aplikasi pencatat keuangan mengabaikan integritas matematis rekonsiliasi kas riil serta mewajibkan pengiriman data finansial privat yang sensitif ke cloud pihak ketiga.",
+      "solution": "Membangun dashboard analitik berbasis ledger di mana seluruh data dienkapsulasi aman di local storage perangkat pengguna dengan fitur ekspor CSV & cadangan JSON terverifikasi.",
+      "stack": [
+        "React 19",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS"
+      ],
+      "highlights": [
+        "Prinsip Ledger matematis untuk sinkronisasi saldo akun riil",
+        "Privacy-First: Data finansial 100% tersimpan di lokal perangkat",
+        "Ekspor mutasi ke CSV & sistem cadangan JSON terstruktur"
+      ],
+      "links": {
+        "demo": "https://razkdev.github.io/Finance-Dashboard/",
+        "github": "https://github.com/RAZKdev/Finance-Dashboard"
+      }
+    }
+  ]
+}

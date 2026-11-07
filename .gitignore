@@ -1,0 +1,44 @@
+# ==========================================
+# Rangga Portfolio / TKJ.OS — .gitignore
+# ==========================================
+
+# Internal Project Documentation & Specifications
+# Rule: Only README.md is tracked in remote repository
+AGENTS.md
+CONTENT.md
+DESIGN.md
+IMAGE_PLAN.md
+MASTER_PROMPT.md
+SKILL.md
+*.md
+!README.md
+!readme.md
+
+# Local runner & development scripts
+start.bat
+*.bat
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.cert
+
+# Operating System & Cache files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch, temporary & log files
+scratch/
+tmp/
+temp/
+*.log
+
+# Editor & IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
